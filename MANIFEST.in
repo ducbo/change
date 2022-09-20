@@ -1,0 +1,8 @@
+recursive-include changedetectionio/api *
+recursive-include changedetectionio/templates *
+recursive-include changedetectionio/static *
+recursive-include changedetectionio/model *
+include changedetection.py
+global-exclude *.pyc
+global-exclude node_modules
+global-exclude venv
